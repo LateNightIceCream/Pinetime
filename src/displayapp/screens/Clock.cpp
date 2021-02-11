@@ -81,7 +81,7 @@ Clock::Clock(DisplayApp* app,
   lv_obj_align(heartbeatValue, heartbeatIcon, LV_ALIGN_OUT_RIGHT_MID, 5, 0);
 
   heartbeatBpm = lv_label_create(lv_scr_act(), nullptr);
-  lv_label_set_text(heartbeatBpm, "BPM");
+  lv_label_set_text(heartbeatBpm, "snacks!");
   lv_obj_align(heartbeatBpm, heartbeatValue, LV_ALIGN_OUT_RIGHT_MID, 5, 0);
 
   stepValue = lv_label_create(lv_scr_act(), nullptr);
@@ -211,7 +211,7 @@ const char *Clock::DayOfWeekToString(Pinetime::Controllers::DateTime::Days dayOf
 
 char const *Clock::DaysString[] = {
         "",
-        "MONDAY",
+        "星期一",
         "TUESDAY",
         "WEDNESDAY",
         "THURSDAY",
